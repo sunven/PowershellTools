@@ -1,0 +1,1 @@
+powershell.exe "-Command" "if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '%~dp0open_test_host_log.ps1'"
